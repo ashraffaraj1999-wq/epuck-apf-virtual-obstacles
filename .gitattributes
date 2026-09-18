@@ -1,0 +1,16 @@
+# Office documents and PDFs are binary — no line-ending normalization, no text merges.
+*.pdf   binary
+*.docx  binary
+*.pptx  binary
+*.mat   binary
+
+# Webots world and PROTO files are plain text and diff usefully.
+*.wbt    text
+*.proto  text
+
+# Normalize line endings for source.
+*.c      text
+*.h      text
+*.m      text
+*.md     text
+Makefile text

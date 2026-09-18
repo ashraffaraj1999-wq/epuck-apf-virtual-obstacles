@@ -1,0 +1,31 @@
+# Webots build output
+build/
+*.o
+*.d
+*.exe
+*.obj
+*.so
+*.dll
+*.dylib
+
+# Webots cache and per-user state
+.*.cache
+.*.wbproj
+*.wbproj
+
+# MATLAB
+*.asv
+*.m~
+slprj/
+codegen/
+
+# Archives
+*.rar
+*.zip
+*.7z
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
